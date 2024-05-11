@@ -62,7 +62,9 @@ export default defineConfig({
     // see uno.config.ts for config
     UnoCSS(),
   ],
-
+  build: {
+    outDir: 'docs',
+  },
   // https://github.com/vitest-dev/vitest
   test: {
     environment: 'jsdom',
