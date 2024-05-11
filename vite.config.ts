@@ -65,6 +65,7 @@ export default defineConfig({
   build: {
     outDir: 'docs',
   },
+  base: '/json-to-json-Map',
   // https://github.com/vitest-dev/vitest
   test: {
     environment: 'jsdom',
